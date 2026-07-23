@@ -1,0 +1,14 @@
+{
+  "name": "solides-dp-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP Server for Solides DP API - Claude.ai compatible",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "express": "^4.21.0"
+  }
+}

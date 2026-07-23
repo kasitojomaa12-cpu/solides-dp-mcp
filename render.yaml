@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: solides-dp-mcp
+    runtime: node
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: SOLIDES_TOKEN
+        sync: false
